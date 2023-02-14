@@ -1,0 +1,26 @@
+html{
+    margin: 0 10%;
+}
+img{
+    width:150px;
+}
+
+svg.bi-chevron-right, svg.bi-chevron-left{
+    color: black;
+}
+
+#message-form{
+    height: 100px;
+}
+
+form.contact-us{
+    width:50%;
+}
+
+div.details-carta{
+    width:50%;
+}
+
+.imagen-details{
+    width:100%;
+}
