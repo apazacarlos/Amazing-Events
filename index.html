@@ -18,7 +18,7 @@
 <body>
     <header>
         <!-- NAV -->
-        <nav class="navbar navbar-expand-sm bg-body-secondary p-3 border">
+        <nav class="navbar navbar-expand-md bg-body-secondary p-3 border" >
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./assets/img/Logo_Amazing_Events.png"
                         alt="Logo Amazing Events"></a>
@@ -27,15 +27,19 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link btn btn-light me-4 align-self-center active" href="#">Home</a>
-                        <a class="nav-link btn btn-light me-4 align-self-center" href="./upcomingEvents.html">Upcoming
-                            Events</a>
-                        <a class="nav-link btn btn-light me-4 align-self-center" href="./pastEvents.html">Past
-                            Events</a>
-                        <a class="nav-link btn btn-light me-4 align-self-center" href="./contact.html">Contact</a>
-                        <a class="nav-link btn btn-light me-4 align-self-center" href="./stats.html">Stats</a>
+                        <a class="nav-link navbar-collapse btn btn-light me-4 active" href="#">Home</a>
+                        <a class="nav-link navbar-collapse btn btn-light me-4"
+                            href="./upcomingEvents.html">Upcoming Events
+                        </a>
+                        <a class="nav-link navbar-collapse btn btn-light me-4"
+                            href="./pastEvents.html">Past Events
+                        </a>
+                        <a class="nav-link navbar-collapse btn btn-light me-4"
+                            href="./contact.html">Contact</a>
+                        <a class="nav-link navbar-collapse btn btn-light me-4"
+                            href="./stats.html">Stats</a>
                     </div>
                 </div>
             </div>
@@ -65,7 +69,7 @@
     <!-- MAIN -->
     <main class="border">
         <form class="my-5">
-            <div class="form-check d-flex justify-content-evenly">
+            <div class="form-check " id="category">
                 <label class="form-check-label me-1" for="flexCheckChecked">
                     <input class="form-check-input " type="checkbox" value="" id="flexCheckChecked" checked>
 
@@ -91,61 +95,24 @@
                     <input class="form-check-input " type="checkbox" value="" id="flexCheck4">
                     Category
                 </label>
+        
                 <label for="search" class="form-check d-flex ">
                     <input class="form-control d-flex align-self-end" type="search" placeholder="Search"
-                        aria-label="Search" id="search"></label>
+                        aria-label="Search" id="search"><button class="btn btn-dark" id="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg></button></label>
 
-                <button class="btn btn-dark" id="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                        height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path
-                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                    </svg></button>
-
+                
 
             </div>
         </form>
 
         <!-- CARDS -->
 
-        <div class="row d-flex justify-content-center my-5">
-            <div class="card col-3 me-5 p-3 shadow-lg" style="width: 18rem;">
-                <img src="./assets/img/Cinema.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Titulo</h5>
-                    <p class="card-text">Texto descriptivo</p>
-                    <p class="d-inline float-start">Price $0000</p><a href="#"
-                        class="btn btn-primary d-inline float-end shadow-lg">Ver más...</a>
-                </div>
-            </div>
-            <div class="card col-3 me-5 p-3 shadow-lg" style="width: 18rem;">
-                <img src="./assets/img/Cinema.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Titulo</h5>
-                    <p class="card-text">Texto descriptivo</p>
-                    <p class="d-inline float-start">Price $0000</p><a href="#"
-                        class="btn btn-primary d-inline float-end shadow-lg">Ver más...</a>
-                </div>
-            </div>
-            <div class="card col-3 me-5 p-3 shadow-lg" style="width: 18rem;">
-                <img src="./assets/img/Cinema.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Titulo</h5>
-                    <p class="card-text">Texto descriptivo</p>
-                    <p class="d-inline float-start">Price $0000</p><a href="#"
-                        class="btn btn-primary d-inline float-end shadow-lg">Ver más...</a>
-                </div>
-            </div>
-            <div class="card col-3 me-5 p-3 shadow-lg" style="width: 18rem;">
-                <img src="./assets/img/Cinema.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Titulo</h5>
-                    <p class="card-text">Texto descriptivo</p>
-                    <p class="d-inline float-start">Price $0000</p><a href="#"
-                        class="btn btn-primary d-inline float-end shadow-lg">Ver más...</a>
-                </div>
-            </div>
 
-        </div>
+
     </main>
 
     <!-- FOOTER -->
@@ -187,6 +154,9 @@
 
 
     </footer>
+
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/index.js"></script>
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
