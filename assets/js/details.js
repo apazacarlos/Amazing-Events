@@ -8,7 +8,7 @@ async function getEventsData() {
         let id = parameters.get("id")
         let eventCard = data.events.find(card => card._id == id);
     
-        //armo la carta
+        //armo la carta.
         let container = document.getElementById("details");
         let cardEvents = `<div class="col-md-4 border p-4 details-carta">
         <img src="${eventCard.image}" class="rounded shadow-lg imagen-details" alt="${eventCard.name}">

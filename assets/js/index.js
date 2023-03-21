@@ -75,7 +75,7 @@ async function getEventsData() {
             }
         }
 
-        //creo un filtro para la barra de busqueda
+        //creo un filtro para la barra de busqueda.
         let search = document.getElementById('search');
         let searchFilter = (arrayEventos, value) => {
             let arrayFilter = arrayEventos.filter(function(e){

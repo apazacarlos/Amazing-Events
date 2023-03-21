@@ -41,7 +41,7 @@ async function getEventsData() {
         dibujarCard(eventos, eventCard)
 
 
-        //creo un elemento que va a contener las categorias
+        //creo un elemento que va a contener las categorias.
         let category = document.getElementById('category');
         function categorias(arrayCategorias) {
             let categories = arrayCategorias.map(function (categoria) {

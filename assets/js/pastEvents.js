@@ -39,7 +39,7 @@ async function getEventsData() {
 
 
 
-        //Creo un elemento que va a tener las categorias
+        //Creo un elemento que va a tener las categorias.
 
         let category = document.getElementById('category');
         function categorias(arrayCategorias) {

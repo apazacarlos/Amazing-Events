@@ -4,7 +4,7 @@ async function getEventsData() {
         let data = await response.json();
         let eventos = data.events;
 
-        //de aca sale mi porcentaje de asistencia
+        //de aca sale mi porcentaje de asistencia.
         let percentages = eventos.map((evento) => evento.assistance / evento.capacity * 100).filter(percentage => !Number.isNaN(percentage));
 
         // encuentro el mayor y el menor porcentaje de asistencia
